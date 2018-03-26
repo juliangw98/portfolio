@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Coustard|Crete+Round|Open+Sans|Rozha+One');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    font-family: 'Crete Round', serif;
+    width: 30%;
+
+}
+
+h2 {
+    font-family: 'Crete Round', serif;
+
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#Banner {
+    background-image: url(images/banner.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+#box1 {
+    background-color: #9365B8;
+    background-image: url(images/kingsen%20display-02.png);
+
+}
+
+#box2 {
+    background-color: #54ACD2;
+
+}
+
+#box3 {
+    background-color: #61BD6D;
+
+}
+
+.item {
+    display: flex;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+/*
+    border-radius: 10px;
+    border: 5px solid white;
+*/
+}
+
+.item .workImage {
+    display: flex;
+    flex: 2;
+}
+
+.item .discription {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+}
+
+.item .discription p {
+    font-size: 15px;
+}
+
+#kingsenKaartspel {
+    background-image: url(images/kingsen%20display_Tekengebied%201.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#paardenbloemProducties {
+    background-image: url(images/paardenbloemProductiesLayoutVol.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
